@@ -7,6 +7,8 @@ export DEFERRED_GARBAGE_COLLECTION=true
 
 export EDITOR=vim
 
+# comment
+
 alias less="less -r -f"
 
 # Aliases
