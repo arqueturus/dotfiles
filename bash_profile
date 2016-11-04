@@ -13,8 +13,7 @@ alias less="less -r -f"
 alias cgs="clear && git status"
 alias gs="git status"
 alias gd="git diff"
-alias g="git"
-alias c="commit"
+alias gc="git commit"
 alias co="git checkout"
 alias be="bundle exec"
 alias dj="bundle exec rake jobs:work"
@@ -30,6 +29,9 @@ alias runta="bundle exec thin start -p 3032 --threaded"
 alias gg="git grep"
 alias f='open -a Finder ./'
 alias edit='atom'
+alias ds='docker_start'
+alias ds?='docker ps'
+alias dsx='docker stop $(docker ps -q)'
 
 # Git auto-complete
 source ~/git-completion.bash
